@@ -20,6 +20,8 @@ https://templatemo.com/tm-578-first-portfolio
   --border-color:                 #e9eaeb;
   --featured-border-color:        #727aab;
   --green-color:                  #14B789;
+  --red-color:                    #ff0015;
+  --blue-color:                   #0000FF;
 
   --body-font-family:             'DM Sans', sans-serif;
 
@@ -160,6 +162,7 @@ strong {
   width: 160px;
   height: 160px;
   object-fit: cover;
+  object-position: top;
 }
 
 .avatar-image-large {
@@ -350,7 +353,8 @@ strong {
 }
 
 .navbar-brand {
-  font-size: var(--h4-font-size);
+  margin-top: 8px;;
+  font-size: var(--h5-font-size);
   font-weight: var(--font-weight-bold);
 }
 
@@ -390,7 +394,7 @@ strong {
 
 .navbar-nav .nav-link.active::after, 
 .navbar-nav .nav-link:hover::after {
-  background: var(--white-color);
+  background: var(--red-color);
 }
 
 .navbar-nav .nav-link.active, 
@@ -468,6 +472,10 @@ strong {
 /*---------------------------------------
   HERO              
 -----------------------------------------*/
+
+
+
+
 .hero {
   background: var(--secondary-color);
   position: relative;
@@ -488,7 +496,6 @@ strong {
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
   border-radius: var(--border-radius-large);
   display: inline-block;
-  padding: 8px 24px;
   color: var(--white-color)
 }
 
@@ -503,7 +510,7 @@ strong {
 .hero-text {
   position: relative;
   z-index: 22;
-  top: 70px;
+  top: -40px;
 }
 
 .hero-image-wrap {
@@ -1081,7 +1088,7 @@ strong {
   }
 
   .hero {
-    padding-top: 200px;
+    padding-top: 150px;
     padding-bottom: 400px;
   }
 
