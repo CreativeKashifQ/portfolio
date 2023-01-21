@@ -494,13 +494,13 @@ strong {
   background: var(--secondary-color);
   position: relative;
   overflow: hidden;
-  padding-top: 330px;
-  padding-bottom: 330px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 @media  screen and (min-width: 991px) {
   .hero {
-    height: 60vh;
+    
   }
 }
 
@@ -1007,8 +1007,8 @@ strong {
 -----------------------------------------*/
 @media screen and (min-width: 1600px) {
   .hero {
-    padding-top: 380px;
-    padding-bottom: 380px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   .hero-image-wrap {
@@ -1107,7 +1107,6 @@ strong {
   }
 
   .hero-text {
-    margin-bottom: 120px;
     text-align: center;
   }
 
