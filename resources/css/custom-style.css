@@ -498,11 +498,12 @@ strong {
   padding-bottom: 50px;
 }
 
-@media  screen and (min-width: 991px) {
+/* @media  screen and (min-width: 991px) {
   .hero {
-    
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
-}
+} */
 
 .hero-title,
 .hero h2 {
@@ -1103,7 +1104,7 @@ strong {
 
   .hero {
     padding-top: 150px;
-    padding-bottom: 400px;
+    padding-bottom: 50px;
   }
 
   .hero-text {
