@@ -14,9 +14,10 @@ https://templatemo.com/tm-578-first-portfolio
   --white-color:                  #ffffff;
   --primary-color:                #535da1;
   --secondary-color:              #000000;
-  --section-bg-color:             #f9f9f9;
+  --gray-color:                   #9a9aa0;
+  --gray-light-color:             #f1eded;
   --dark-color:                   #000000;
-  --p-color:                      #717275;
+  --p-color:                      #c9cacf;
   --border-color:                 #e9eaeb;
   --featured-border-color:        #727aab;
   --green-color:                  #14B789;
@@ -138,8 +139,8 @@ a:hover {
 }
 
 .section-padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 70px 0px;
+  
 }
 
 b,
@@ -147,13 +148,35 @@ strong {
   font-weight: var(--font-weight-bold);
 }
 
-.section-title-wrap {
-  background: var(--secondary-color);
-  border-radius: var(--border-radius-small);
-  padding: 10px 30px;
+/* --------------------------
+  MY CUSTOM CLASSESS
+----------------------------*/
+.font-bold{
+  font-weight: bold;
+}
+.text-green{
+  color: var(--green-color);
+}
+.text-gray{
+  color: var(--gray-color)
+}
+.bg-light-gray{
+  background-color: var(--gray-light-color);
+}
+.rounded-md{
+  border-radius: var(--border-radius-medium);
+}
+.rounded-lg{
+  border-radius: var(--border-radius-large);
 }
 
 
+
+.about-me-card{
+  background: var(--secondary-color);
+  border-radius: var(--border-radius-small);
+  padding:10px 5px;
+}
 /*---------------------------------------
   AVATAR IMAGE               
 -----------------------------------------*/
@@ -165,10 +188,31 @@ strong {
   object-position: top;
 }
 
+.about-avatar-image {
+  border-radius: 300px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.service-avatar-image {
+  border-radius: var(--border-radius-large);
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: top;
+  border-color: #000000;
+}
+
 .avatar-image-large {
   width: 90.4px;
   height: 90.4px;
 }
+
+
+
+
 
 
 /*---------------------------------------
@@ -386,7 +430,7 @@ strong {
 
 .navbar-nav .nav-link {
   display: inline-block;
-  color: var(--section-bg-color);
+  color: var(--gray-color);
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-medium);
   text-transform: uppercase;
@@ -498,12 +542,6 @@ strong {
   padding-bottom: 50px;
 }
 
-/* @media  screen and (min-width: 991px) {
-  .hero {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-} */
 
 .hero-title,
 .hero h2 {
@@ -652,7 +690,7 @@ strong {
 -----------------------------------------*/
 .services,
 .featured {
-  background: var(--section-bg-color);
+  background: var(--gray-color);
   border-top: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
 }
@@ -742,7 +780,7 @@ strong {
   PROJECTS              
 -----------------------------------------*/
 .projects-thumb {
-  background: var(--section-bg-color);
+  background: var(--gray-color);
   border: 2px solid var(--white-color);
   border-radius: var(--border-radius-medium);
   position: relative;
@@ -793,7 +831,7 @@ strong {
   CONTACT              
 -----------------------------------------*/
 .contact {
-  background: var(--section-bg-color);
+  background: var(--gray-color);
 }
 
 .contact-info {
