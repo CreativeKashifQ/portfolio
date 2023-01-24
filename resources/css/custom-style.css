@@ -176,6 +176,12 @@ strong {
 .rounded-lg{
   border-radius: var(--border-radius-large);
 }
+.text-lg{
+  font-size:var(--h2-font-size)
+}
+.text-md{
+  font-size: var(--h3-font-size)
+}
 
 
 
