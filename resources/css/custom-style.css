@@ -15,6 +15,7 @@ https://templatemo.com/tm-578-first-portfolio
   --primary-color:                #535da1;
   --secondary-color:              #000000;
   --gray-color:                   #9a9aa0;
+  --gray-dark-color:              #2d2d2e;
   --gray-light-color:             #f1eded;
   --dark-color:                   #000000;
   --p-color:                      #c9cacf;
@@ -190,6 +191,12 @@ strong {
 }
 .text-larger{
   font-size: larger;
+}
+.text-dark-gray{
+  color:var(--gray-dark-color)
+}
+.text-blue{
+  color:var(--blue-color)
 }
 
 
@@ -858,16 +865,12 @@ strong {
 
 .contact-info {
   background: var(--white-color);
-  border-top-right-radius: var(--border-radius-small);
-  border-bottom-right-radius: var(--border-radius-small);
+  border-radius: var(--border-radius-small);
   padding: 60px 30px 30px 30px;
   height: 100%;
 }
 
-.contact-info-border-start {
-  border-right: 1px solid var(--border-color);
-  border-radius: var(--border-radius-small) 0 0 var(--border-radius-small);
-}
+
 
 .contact-form {
   margin-left: 10px;
@@ -1019,6 +1022,8 @@ strong {
   margin-bottom: 10px;
   padding: 6px 14px;
   min-width: 70px;
+  background:var(--green-color);
+  color:var(--white-color)
 }
 
 .footer-menu-link:hover {
@@ -1054,6 +1059,7 @@ strong {
   height: 40px;
   line-height: 40px;
   text-align: center;
+  background: var(--green-color);
 }
 
 .social-icon-link:hover {
